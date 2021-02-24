@@ -73,8 +73,7 @@ def iterate_minibatches(inputs, targets, batch_size):
 
 def correlation_training(X_train, Y_train, Params=None):
     """Develop and train a Quantum neural network to create a correlation for 
-    ANN-based correlation for frictional pressure drop of non-azeotropic 
-    mixtures during cryogenic forced boiling.
+    frictional pressure drop of non-azeotropic mixtures during cryogenic forced boiling.
 
 
     Args:
