@@ -24,7 +24,7 @@ The Figure below shows the mean relative error (mre) for the different experimen
 
 The Figure below shows the result of the QNN-based correlation for frictional pressure drop of the non-azeotropic mixtures, here the x-axis is the quality of the mixture and the y-axis is the frictional pressure drop. 
 
-![plot](./Images/Experiments.png)
+
 
 ## Conclusions
 The proposed model uses a set of experimental parameters as input variables: local quality (0–1), surface roughness (0.4–2.6 mm), mass flux (139–242 kgm−2 s−1), and Reynolds number (197–50,740). Based on mre for different architectures we chosse the QNN model. This model uses 3 StronglyEntanglingLayers and in between these layers RX rotation to encode the inputs. Using the mean relative error, it is demonstrated that the proposed QNN-based model does not give the expected result with a mean relative error mre = 37.5%. If compared with the best available correlations produce mean relative errors mre = 23.9% (Sun and Mishima), mre = 24.1% (Awad and Muzychka), mre = 25.3%, (Cicchitti et al.), and the ANN in [1] has mre = 8.3%.
